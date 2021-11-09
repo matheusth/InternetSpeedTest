@@ -38,3 +38,6 @@ $ pip install -r requirements.txt
 ```shell
 $ python main.py <source-ip-address>
 ```
+
+### 1.5 - Quitting the program
+To be able to quit the scrit just press `q` followed by `enter`. 
