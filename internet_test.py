@@ -9,8 +9,8 @@ def get_keys(a_list: list):
 
 
 def choose_best_server(test: Speedtest) -> Speedtest:
-    server_list = test.get_servers()
-    best_server = test.get_best_server(server_list)
+    test.get_servers()
+    best_server = test.get_best_server()
     print(f"Found: {best_server['host']}, location: {best_server['country']}")
     return test
 
