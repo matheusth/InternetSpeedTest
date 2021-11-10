@@ -6,7 +6,7 @@ from datetime import datetime
 
 class Report:
     def __init__(self, filepath: str = None):
-        self.filepath = path.join(curdir, f'{str(date.today().strftime("%B"))}.csv')
+        self.filepath = path.join(curdir, f'reports/{str(date.today().strftime("%B"))}.csv')
 
     def write_file(self, info: dict):
         is_file_new = not path.exists(self.filepath)
