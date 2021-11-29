@@ -1,4 +1,5 @@
 {
-  "source-ip": "192.168.0.74",
-  "scheadule": "22:10"
+  "source_ip": "192.168.0.74",
+  "test_at": "19:56",
+  "number_of_tests": 10
 }
